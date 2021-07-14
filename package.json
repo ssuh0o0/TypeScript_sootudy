@@ -1,0 +1,25 @@
+{
+  "name": "TypeScript_sootudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssuh0o0/TypeScript_sootudy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssuh0o0/TypeScript_sootudy/issues"
+  },
+  "homepage": "https://github.com/ssuh0o0/TypeScript_sootudy#readme"
+}

@@ -1,0 +1,1 @@
+let printME: (string, number) => void = function (name:string, age:number): void {}

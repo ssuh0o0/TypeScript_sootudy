@@ -22,3 +22,7 @@ const findOneTest = async() => {
 }
 
 findOneTest()
+
+
+// ts-node .\src\test\findOne-test.ts
+// { _id: 61004447fc41706614964d3f, name: 'Jack', age: 32 }

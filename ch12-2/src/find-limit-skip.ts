@@ -19,3 +19,28 @@ const findLimitSkip = async () => {
 }
 
 findLimitSkip()
+
+
+// ts-node .\src\find-limit-skip.ts
+// [
+//   {
+//     name: 'Jared Richardson',
+//     birthday: 'Wed Sep 23 1998 14:53:45 GMT+0900 (대한민국 표준시)'
+//   },
+//   {
+//     name: 'Lettie Knight',
+//     birthday: 'Wed Sep 23 1998 06:27:00 GMT+0900 (대한민국 표준시)'
+//   },
+//   {
+//     name: 'Beatrice King',
+//     birthday: 'Wed Sep 23 1998 00:52:30 GMT+0900 (대한민국 표준시)'
+//   },
+//   {
+//     name: 'Scott Holloway',
+//     birthday: 'Wed Sep 23 1992 04:55:39 GMT+0900 (대한민국 표준시)'
+//   },
+//   {
+//     name: 'Eugenia Mendoza',
+//     birthday: 'Wed Sep 23 1992 03:03:21 GMT+0900 (대한민국 표준시)'
+//   }
+// ]

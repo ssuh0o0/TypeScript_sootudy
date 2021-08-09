@@ -1,13 +1,14 @@
-import Chance from 'chance'
-import {IFake} from './IFake'
+import Chance from "chance";
+import { IFake } from "./IFake";
 
-const c = new Chance
+const c = new Chance();
 
 export const makeFakeData = (): IFake => ({
   name: c.name(),
-  email: c.email(), 
+  email: c.email(),
   profession: c.profession(),
   birthday: c.birthday(),
-  sentence: c.sentence(),
-})
-export {IFake}
+  sentence: c.sentence()
+});
+
+export { IFake };

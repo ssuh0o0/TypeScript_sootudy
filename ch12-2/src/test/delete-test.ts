@@ -13,7 +13,7 @@ const deleteTest = async() => {
     let result = await personsCollection.deleteOne({name: "Tom"})
     console.log(result) // deleteCount: 1
     result = await personsCollection.deleteMany({})
-    console.log(result) // deletedCount: 2
+    console.log(result) // deletedCount: 2 -> 나는 3이 나오는디 머지?
   } catch(e) {
     console.log(e.message)
   } finally {

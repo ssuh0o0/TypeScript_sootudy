@@ -23,3 +23,11 @@ const insertDocumentTest = async() => {
 }
 
 insertDocumentTest()
+
+/*
+ts-node .\src\test\insert-document-test.ts
+CommandResult {
+  ```
+ops: [
+  { country: 'korea', city: 'seoul', _id: 61004447fc41706614964d40 }
+],*/

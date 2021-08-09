@@ -26,3 +26,9 @@ const sortTest = async() => {
 }
 
 sortTest()
+
+// ts-node .\src\test\sort-test.ts  
+// [
+//   { _id: 61004896aba5d08118f4bf75, name: 'Jack', age: 33 },
+//   { _id: 61004896aba5d08118f4bf74, name: 'Jack', age: 32 } 
+// ]

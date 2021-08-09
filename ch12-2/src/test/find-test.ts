@@ -10,11 +10,11 @@ const findDocumentTest = async() => {
     
     cursor = personsCollection.find({ name: "Jack" })
     const foundPersons = await cursor.toArray()
-    console.log(foundPersons) // [ { _id: 5de606f79db96c1ea4c9c81c, name: 'Jack', age: 32 } ]
+    console.log(foundPersons)
 
     cursor = addressesCollection.find({})
     const foundAddresses = await cursor.toArray()
-    console.log(foundAddresses) // [ { _id: 5de606f79db96c1ea4c9c81d, country: 'korea', city: 'seoul' } ]
+    console.log(foundAddresses) 
   } catch(e) {
     console.log(e.message)
   } finally {
@@ -23,3 +23,7 @@ const findDocumentTest = async() => {
 }
 
 findDocumentTest()
+
+// ts-node .\src\test\find-test.ts
+// [ { _id: 61004447fc41706614964d3f, name: 'Jack', age: 32 } ]
+// [ { _id: 61004447fc41706614964d40, country: 'korea', city: 'seoul' } ]

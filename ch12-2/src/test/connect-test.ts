@@ -13,3 +13,20 @@ const connectTest = async() => {
 }
 
 connectTest()
+
+
+//ts-node .\src\test\connect-test.ts
+/*
+connection OK. MongoClient {
+  _events: [Object: null prototype] { newListener: [Function (anonymous)] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  s: {
+    url: 'mongodb://localhost:27017',
+    options: {
+      servers: [Array],
+      caseTranslate: true,
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      directConnection: true,
+*/
